@@ -1,0 +1,80 @@
+footer{
+    width: 100%;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    padding: 50px;
+    background-color: rgb(12, 12, 107);
+    color: white;
+    padding-bottom: 1px;
+}
+.footerTop{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    border: 1px solid transparent;
+    box-sizing: border-box;
+}
+.footerLeft, .footerMiddle, .footerRight, .footerEnd{
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    width: 25%;
+}
+.footerMiddle{
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+.footerRight{
+    border-right: 1px solid white;
+}
+footer div h1{
+    text-align: center;
+}
+footer div ul{
+    list-style: none;
+}
+footer div ul li{
+    display: flex;
+    align-items: center;
+}
+footer div ul li a{
+    color: white;
+    text-decoration: none;
+}
+footer div ul li div{
+    padding: 10px;
+}
+.footerEnd{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border: 1px solid rgb(12, 12, 107);
+    box-sizing: border-box;
+}
+.iconTop{
+    margin: 0 auto;
+}
+.footerEnd div ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    padding: 0;
+}
+.footerEnd div ul li{
+    padding: 10px;
+}
+.footerEnd div ul li i{
+    font-size: 35px;
+}
+.conteinerDivFooterEnd{
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    display: flex;
+    flex-direction: column;
+}
+.footerBottom{
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    text-align: center;
+    border-top: 1px solid white;
+}
