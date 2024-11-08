@@ -21,4 +21,28 @@ nav ul li a{
 nav ul li a:hover{
     border-bottom: 1px solid black;
 }
+nav p span {
+    border: 1px solid;
+    border-radius: 50%;
+    top: -7px;
+    right: -7px;
+    color: white;
+    
+} 
+nav ul p {
+    margin-right: 200%;
+}
+.notif {
+    border: 1px solid;
+    border-radius: 50%;
+    top: -15px;
+    right: -15px;
+    position: absolute; 
+    padding: 2px 6px;
+    font-size: 12px;
+}
+.iconcontainer {
+    position: relative;
+    right: 4%;
+}
 

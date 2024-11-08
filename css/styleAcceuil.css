@@ -129,3 +129,15 @@ hr{
 .pk p span{
     font-weight: bolder;
 }
+.notif {
+    border: 1px solid;
+    border-radius: 50%;
+    top: -15px;
+    right: -15px;
+    position: absolute; 
+    padding: 2px 6px;
+    font-size: 12px;
+}
+.iconcontainer {
+    position: relative;
+}
