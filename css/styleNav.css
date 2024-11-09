@@ -1,10 +1,17 @@
+header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 10;
+}
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 98%;
     margin: 0 auto;
-    font: size 200%;;
+    font: size 200%;
+  
 }
 nav ul{
     display: flex;
@@ -45,4 +52,5 @@ nav ul p {
     position: relative;
     right: 4%;
 }
+
 

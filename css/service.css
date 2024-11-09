@@ -1,3 +1,8 @@
+header {
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
 *{
   font-family: Arial, Helvetica, sans-serif;
   
@@ -10,7 +15,6 @@
     flex-direction: column;
     width: 26%;
     align-items: center;
-   
 }
 .ph2 {
     width: 100%;
@@ -157,4 +161,37 @@ p.stitre {
 }
 .textbloc h1 {
   font-size: 220%;
+}
+
+@media (max-width: 750px) {
+.ph {
+  width: 100%;
+}
+.textbloc h1 {
+  font-size: 120%;
+}
+.pepe {
+  font-size: 100%;
+  top: 20px;
+}
+.sarytelo {
+  flex-direction: column;
+}
+.sec {
+  width: 60%;
+  margin-bottom: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.sous-titre {
+  height: 5%;
+}
+.container {
+  height: 95%;
+}
+}
+@media (max-width: 950px) {
+ 
+  
 }
