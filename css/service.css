@@ -162,7 +162,29 @@ p.stitre {
 .textbloc h1 {
   font-size: 220%;
 }
-
+.titrage{
+font-weight:1;
+color:rgba(255, 255, 255, 0.925);
+}
+@media (max-width: 950px){
+  .sarytelo {
+    flex-direction: column;
+  }
+  .sec {
+    width: 50%;
+    margin-bottom: 5%;
+  }
+  .sec.a {
+    margin-left: 50%;
+  }
+  .sec.b {
+    margin-right: 50%;
+  }
+  .sec.z {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+}
 @media (max-width: 750px) {
 .ph {
   width: 100%;
@@ -177,10 +199,56 @@ p.stitre {
 .sarytelo {
   flex-direction: column;
 }
-.sec {
+.sec.a {
   width: 60%;
   margin-bottom: 5%;
   margin-left: 20%;
   margin-right: 20%;
 }
+.sec.b {
+  width: 60%;
+  margin-bottom: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.sec.z {
+  width: 60%;
+  margin-bottom: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+}
+@media (max-width: 500px) {
+  .sec.a {
+    width: 90%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .sec.b {
+    width: 90%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .sec.z {
+    width: 80%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+@media (max-width: 470px){
+.textbloc h1 {
+  font-size: 90%;
+}
+.pepe {
+  font-size: 90%;
+  top: 5px;
+}
+}
+@media (max-width: 500px) {
+  .sec {
+    width: 80%;
+  }
 }
