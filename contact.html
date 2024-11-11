@@ -16,18 +16,29 @@
             <div>
                 <img src="img/logoAGI.PNG" alt="Logo_AGI">
             </div>
-            <ul>
-                <li><a href="acceuil.html">Acceuil</a></li>
-                <li><a href="service.html">Nos Prestations</a></li>
-                <li><a href="logiciel.html">Nos logiciels</a></li>
-                <li><a href="">Social étudiants</a></li>
-                <li><a href="">Nos abonnements</a></li>
-                <li><a href="blogs.html">Blog</a></li>
-                <li><a href="#">Contact</a></li>
+            <ul class="navLinks">
+                <li><a href="acceuil.html" class="link">Acceuil</a></li>
+                <li><a href="service.html" class="link">Nos Prestations</a></li>
+                <li><a href="logiciel.html" class="link">Nos logiciels</a></li>
+                <li><a href="" class="link">Social étudiants</a></li>
+                <li><a href="" class="link">Nos abonnements</a></li>
+                <li class="blogWithChoice">
+                    <a href="blogs.html" class="link">Blog</a>
+                    <select name="blogChoice" class="blog">
+                        <option value="Blog">
+                        </option>
+                        <option value="????">????</option>
+                        <option value="????">????</option>
+                    </select>
+                </li>
+                <li><a href="#" class="link">Contact</a></li>
             </ul>
             <p class="iconcontainer">
                 <i class="fa fa-cart-shopping"></i>
                 <span class="notif" style="background-color: rgb(194, 4, 4);">0</span>
+            </p>
+            <p class="btnMenu">
+                <i class="fa fa-bars"></i>
             </p>
         </nav>
     </header>
@@ -111,6 +122,7 @@
                     </li>
                 </ul>
             </div>
+            <hr>
             <div class="footerMiddle">
                 <h1>Liens utiles</h1>
                 <ul>
@@ -140,8 +152,9 @@
                     </li>
                 </ul>
             </div>
+            <hr>
             <div class="footerRight">
-                <h1>Nous contacter</h1>
+                <h1 class="link">Nous contacter</h1>
                 <ul>
                     <li>
                         <div>
@@ -163,18 +176,17 @@
                     </li>
                 </ul>
             </div>
+            <hr>
             <div class="footerEnd">
                 <div class="conteinerDivFooterEnd">
                     <div class="iconTop">
                         <img src="img/iconeFb.png" alt="">
                     </div>
-                    <div>
-                        <ul>
-                            <li><i class="fa-brands fa-facebook"></i></li>
-                            <li><i class="fa-brands fa-linkedin"></i></li>
-                            <li><i class="fa-brands fa-youtube"></i cl></li>
-                        </ul>
-                    </div>
+                    <ul>
+                        <li><i class="fa-brands fa-facebook"></i></li>
+                        <li><i class="fa-brands fa-linkedin"></i></li>
+                        <li><i class="fa-brands fa-youtube"></i cl></li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -182,5 +194,20 @@
             <p>Copyright &copy; 2021 AGI | Propulsé par ILO Madagascar</p>
         </div>
     </footer>
+    <script>
+        const navLinks = document.querySelector(".navLinks");
+        const btnMenu = document.querySelector(".btnMenu");
+        const liens = document.querySelector(".link");
+        console.log(liens)
+
+        btnMenu.addEventListener("click", () => {
+            navLinks.classList.toggle("showMenu");
+        })
+
+        link.addEventListener("click", () => {
+            link.classList.toggle("changeColorLink");
+        })    
+
+    </script>
 </body>
 </html>

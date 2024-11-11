@@ -80,3 +80,12 @@ label span{
     height: 400px;
     margin: 2% 2%;
 }
+@media (max-width:900px) {
+    .firstConteinerSectionContact{
+        display: flex;
+        flex-direction: column;
+    }
+    .leftHandSubContainerSectionContact, .rightHandSubContainerSectionContact{
+        width: 100%;
+    }
+}
