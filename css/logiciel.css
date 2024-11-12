@@ -143,14 +143,39 @@ p.stitre {
 
 }
 @media (max-width: 440px) {
-    span {
+    span.aj {
         font-size: 14px; 
         
     }
+    .fa-shopping-cart{
+        font-size: 15px;
+    }
 }
 @media (max-width: 350px) {
-    span {
+    span.aj {
         font-size: 9px; 
         
     }
+}
+@media (max-width: 300px){
+    h1.tit {
+        font-size: 12px;
+    }
+    p.sss {
+        font-size: 7px;
+        left: 0;
+    }
+}
+@media (max-width: 275px){
+    .lr {
+        font-size: 15px;
+    }
+}
+@media (max-width: 250px){
+.aj {
+    font-size: 5px;
+}
+.fa-shopping-cart{
+    font-size: 10px;
+}
 }
