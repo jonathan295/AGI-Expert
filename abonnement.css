@@ -1,0 +1,147 @@
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background: 500px 500px;
+    background-color: rgb(205, 213, 218);
+    width: 98.8%;
+    margin: 0 8px;
+    display: flex;
+}
+.primo{
+    width: 50%;
+    height: 300px;
+    margin: 10% 0;
+    margin-left: 2%;
+    background-color: rgb(81, 81, 175);
+}
+#fille{
+    width: 300px;
+    height: 400px;
+    margin-top: 200px;
+}
+.primo h3{
+    margin-top: 70px;
+    margin-left: 50px;
+    font-size: 30px;
+    color: white;
+}
+.primo p{
+    margin-left: 50px;
+    color: rgb(211, 204, 204);
+    font-size:20px ;
+}
+#bol{
+    width: 150px;
+    height: 200px;
+    margin-top: 150px;
+    margin-left: 150px;
+}
+.secondo{
+    width: 100%;
+    display: flex;
+    margin: 25px 0;
+    justify-content: space-between;
+}
+.first-panier, .second-panier, .third-panier{
+    margin-left: 70px;
+    border: 1px solid rgb(187, 179, 179);
+    padding:  0 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.first-panier p{
+    text-align: center;
+}
+.second-panier p{
+    text-align: center;
+}
+.third-panier p{
+    text-align: center;
+}
+.second-panier{
+    border: 1px solid rgb(187, 179, 179);
+    padding:  0 50px;
+}
+.third-panier{
+    margin-right: 90px;
+    border: 1px solid rgb(187, 179, 179);
+    padding:  0 50px;
+}
+.button{
+    /*background-color: rgb(56, 54, 54);
+    color: white;*/
+    background-color: #5f645f; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0 14px;
+    cursor: pointer;
+}
+.third-panier .button{
+    margin-bottom: 10px;
+}
+.prix{
+    color: rgb(207, 95, 95);
+}
+.pack{
+    color:black
+}
+.sous {
+    display: flex;
+    align-items: center;
+   margin-left: 5%;
+   color: rgb(24, 61, 141);
+}
+p.stitre {
+    font-family: sans-serif;
+    font-size: 170%;
+}
+.soratra {
+   display: inline;
+}
+.bla {
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+}
+.bla p {
+    padding-left: 1%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: gray;
+}
+.fa-long-arrow-alt-right {
+    font-size: 120%;
+    color: rgb(158, 119, 69);
+}
+.vertical-line {
+    border-left: 2px solid  rgb(24, 61, 141);
+    display: inline;
+    height: 30px;
+    margin: 0 0;
+    width: 5px;
+    
+  }
+@media(max-width:900px){
+    .primo{
+        flex-direction: column;
+    }
+    #bol{
+        margin-left: 0;
+    }
+    .secondo{
+        flex-direction: column;
+    }
+    .sous{
+        flex-direction: column;
+    }
+    #fille{
+        margin-left: 0;
+    }
+}
