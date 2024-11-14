@@ -13,7 +13,7 @@
     display: flex;
 }
 .leftHandSubContainerSectionContact{
-    width: 50%;
+    width: 100%;
     border: 1px solid rgba(0, 0, 0, 0);
     box-sizing: border-box;
     background-image: url(../img/mainStyloContact.jpg);
@@ -40,7 +40,7 @@
 }
 
 .rightHandSubContainerSectionContact{
-    width: 50%;
+    width: 100%;
     border: 1px solid rgba(0, 0, 0, 0);
     box-sizing: border-box;
     padding:0 5%;
@@ -80,4 +80,10 @@ label span{
     width: 95%;
     height: 400px;
     margin: 2% 2%;
+}
+@media (max-width: 900px){
+   .firstConteinerSectionContact{
+    display: flex;
+    flex-direction: column;
+   }
 }
